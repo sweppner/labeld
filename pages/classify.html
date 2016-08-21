@@ -1,0 +1,78 @@
+<main class="annotation_window mdl-layout__content mdl-color--grey-100">
+  <div class="mdl-grid demo-content" ng-keydown="key($event)">
+    <div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
+      <img id="image" src="annotorious-0.6.4/example/640px-Hallstatt.jpg" class="annotatable">
+      <a href="" id="view-source"
+         class="next-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored mdl-color-text--white"
+         ng-click="nextImage()">Next</a>
+      <a href="" id="view-source"
+         class="previous-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored mdl-color-text--white"
+         ng-click="prevImage()">Previous</a>
+      <!--<a href="#" id="view-source" class="export-button mdl-button mdl-js-button mdl-button&#45;&#45;raised mdl-js-ripple-effect mdl-button&#45;&#45;colored mdl-color-text&#45;&#45;white" ng-click="prevImage()"><i class="material-icons">file_download</i></a>-->
+    </div>
+    <!--<div class="demo-graphs mdl-shadow&#45;&#45;2dp mdl-color&#45;&#45;white mdl-cell mdl-cell&#45;&#45;8-col">-->
+    <!--<img src="annotorious-0.6.4/example/640px-Hallstatt.jpg" class="annotatable">-->
+    <!--</div>-->
+    <!--<div class="demo-cards mdl-cell mdl-cell&#45;&#45;4-col mdl-cell&#45;&#45;8-col-tablet mdl-grid mdl-grid&#45;&#45;no-spacing">-->
+    <!--<div class="demo-updates mdl-card mdl-shadow&#45;&#45;2dp mdl-cell mdl-cell&#45;&#45;4-col mdl-cell&#45;&#45;4-col-tablet mdl-cell&#45;&#45;12-col-desktop">-->
+    <!--<div class="mdl-card__title mdl-card&#45;&#45;expand mdl-color&#45;&#45;teal-300">-->
+    <!--<h2 class="mdl-card__title-text">Updates</h2>-->
+    <!--</div>-->
+    <!--<div class="mdl-card__supporting-text mdl-color-text&#45;&#45;grey-600">-->
+    <!--Non dolore elit adipisicing ea reprehenderit consectetur culpa.-->
+    <!--</div>-->
+    <!--<div class="mdl-card__actions mdl-card&#45;&#45;border">-->
+    <!--<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Read More</a>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--<div class="demo-separator mdl-cell&#45;&#45;1-col"></div>-->
+    <!--<div class="demo-options mdl-card mdl-color&#45;&#45;deep-purple-500 mdl-shadow&#45;&#45;2dp mdl-cell mdl-cell&#45;&#45;4-col mdl-cell&#45;&#45;3-col-tablet mdl-cell&#45;&#45;12-col-desktop">-->
+    <!--<div class="mdl-card__supporting-text mdl-color-text&#45;&#45;blue-grey-50">-->
+    <!--<h3>View options</h3>-->
+    <!--<ul>-->
+    <!--<li>-->
+    <!--<label for="chkbox1" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">-->
+    <!--<input type="checkbox" id="chkbox1" class="mdl-checkbox__input">-->
+    <!--<span class="mdl-checkbox__label">Click per object</span>-->
+    <!--</label>-->
+    <!--</li>-->
+    <!--<li>-->
+    <!--<label for="chkbox2" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">-->
+    <!--<input type="checkbox" id="chkbox2" class="mdl-checkbox__input">-->
+    <!--<span class="mdl-checkbox__label">Views per object</span>-->
+    <!--</label>-->
+    <!--</li>-->
+    <!--<li>-->
+    <!--<label for="chkbox3" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">-->
+    <!--<input type="checkbox" id="chkbox3" class="mdl-checkbox__input">-->
+    <!--<span class="mdl-checkbox__label">Objects selected</span>-->
+    <!--</label>-->
+    <!--</li>-->
+    <!--<li>-->
+    <!--<label for="chkbox4" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">-->
+    <!--<input type="checkbox" id="chkbox4" class="mdl-checkbox__input">-->
+    <!--<span class="mdl-checkbox__label">Objects viewed</span>-->
+    <!--</label>-->
+    <!--</li>-->
+    <!--</ul>-->
+    <!--</div>-->
+    <!--<div class="mdl-card__actions mdl-card&#45;&#45;border">-->
+    <!--<a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text&#45;&#45;blue-grey-50">Change location</a>-->
+    <!--<div class="mdl-layout-spacer"></div>-->
+    <!--<i class="material-icons">location_on</i>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+    </div>
+</main>
+<script>
+
+  hljs.initHighlightingOnLoad();
+
+  var height = $(window).height() - 125;
+  var width = 1048;
+  $("#image").attr("height", height);
+  $("#image").attr("width", width);
+
+  anno.makeAnnotatable(document.getElementById('image'));
+</script>
