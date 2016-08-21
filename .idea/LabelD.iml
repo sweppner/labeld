@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/../mdl-template-dashboard/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/../mdl-template-dashboard/temp" />
+      <excludeFolder url="file://$MODULE_DIR$/../mdl-template-dashboard/tmp" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="node-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="passport-facebook-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="passport-facebook-token-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="passport-strategy-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="passport-google-oauth-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="express-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="mongodb-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="mongoose-DefinitelyTyped" level="application" />
+  </component>
+</module>
