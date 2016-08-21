@@ -1,0 +1,52 @@
+<script src="annotorious-0.6.4/example/highlight.js/highlight.pack.js"></script>
+<script src="annotorious-0.6.4/annotorious.min.js"></script>
+<main class="annotation_window mdl-layout__content mdl-color--grey-100">
+  <div class="mdl-grid demo-content" ng-keydown="key($event)">
+    <div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
+      <img id="annotation_image" src="" class="annotatable annotation-image annotation-background">
+      <a href="" id="view-source"
+         class="next-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored mdl-color-text--white"
+         ng-click="nextImage()">Next</a>
+      <a href="" id="view-source"
+         class="previous-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored mdl-color-text--white"
+         ng-click="prevImage()">Previous</a>
+      <!--<a href="#" id="view-source" class="export-button mdl-button mdl-js-button mdl-button&#45;&#45;raised mdl-js-ripple-effect mdl-button&#45;&#45;colored mdl-color-text&#45;&#45;white" ng-click="prevImage()"><i class="material-icons">file_download</i></a>-->
+    </div>
+  </div>
+</main>
+<script>
+
+  if(!firstImage){
+    // set initial variables
+    // var current_annotation_object = {};
+    var next = annotation_state.current_annotation;
+    var parent = $("#annotation_image").parent();
+
+
+    //$("#image").remove();
+    var child = $("#annotation_image")
+//    var height = $( window ).height() - 125;
+//    var width =  $(window).width() - 125;
+    child.attr("src", next.location);
+    child.attr("id", "image");
+    child.attr("class", "annotatable");//height="42" width="42"
+    child.height("inherit");//height="42" width="42"
+    child.width("inherit");
+
+    // add the child image object to the parent on the page
+    parent.append(child);
+    anno.makeAnnotatable(document.getElementById('image'));
+
+    // Add annotorious to the new child image element
+    // anno.makeAnnotatable(document.getElementById('image'));
+
+    //add the given anno
+    if(next.annotations.length > 0){
+      for(var annotation_index in next.annotations){
+        var annotation = next.annotations[annotation_index];
+        anno.addAnnotation(annotation);
+      }
+    }
+
+  }
+</script>
