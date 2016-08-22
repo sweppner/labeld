@@ -23,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../LabelD/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1188">
-              <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+            <state relative-caret-position="125">
+              <caret line="141" column="8" selection-start-line="141" selection-start-column="8" selection-end-line="143" selection-end-column="117" />
               <folding />
             </state>
           </provider>
@@ -43,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LICENSE.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LICENSE.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../LabelD/LICENSE.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="514">
@@ -189,6 +189,7 @@
         <option value="$PROJECT_DIR$/../LabelD/node/rest/rest_server.js" />
         <option value="$PROJECT_DIR$/../LabelD/README.md" />
         <option value="$PROJECT_DIR$/../LabelD/LICENSE.txt" />
+        <option value="$PROJECT_DIR$/../LabelD/index.html" />
       </list>
     </option>
   </component>
@@ -439,12 +440,12 @@
       <updated>1470159810769</updated>
       <workItem from="1470159811884" duration="82584000" />
       <workItem from="1470846066817" duration="10353000" />
-      <workItem from="1471518910133" duration="18836000" />
+      <workItem from="1471518910133" duration="19396000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111773000" />
+    <option name="totallyTimeSpent" value="112333000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -894,14 +895,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../LabelD/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1188">
-          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../LabelD/node/rest/rest_server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -924,6 +917,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="514">
           <caret line="660" column="31" selection-start-line="660" selection-start-column="31" selection-end-line="660" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LabelD/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="141" column="8" selection-start-line="141" selection-start-column="8" selection-end-line="143" selection-end-column="117" />
           <folding />
         </state>
       </provider>
