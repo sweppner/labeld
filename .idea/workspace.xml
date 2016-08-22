@@ -440,18 +440,18 @@
       <updated>1470159810769</updated>
       <workItem from="1470159811884" duration="82584000" />
       <workItem from="1470846066817" duration="10353000" />
-      <workItem from="1471518910133" duration="18611000" />
+      <workItem from="1471518910133" duration="18677000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111548000" />
+    <option name="totallyTimeSpent" value="111614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24665257" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24665257" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31084338" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -738,6 +738,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="139705" selection-start-line="7" selection-start-column="139705" selection-end-line="7" selection-end-column="139705" />
+          <folding>
+            <element signature="e#50155#51856#2" expanded="false" />
+            <element signature="e#51862#53563#2" expanded="false" />
+            <element signature="e#53764#54661#1" expanded="false" />
+            <element signature="e#54825#55722#1" expanded="false" />
+            <element signature="e#76393#76994#2" expanded="false" />
+            <element signature="e#77000#77601#2" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
