@@ -17,6 +17,39 @@
 html, body {
   font-family: 'Roboto', 'Helvetica', sans-serif;
 }
+
+table {
+
+    border-spacing: 0px !important;
+}
+
+table.qr-code td {
+    border-width: 0;
+    border-style: solid;
+    border-color: #00f;
+    border-collapse: collapse;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+table.qr-code td.black {
+    border-top-color: #000;
+    background: #000;
+    border-top-width:0 !important;
+    width:5px !important;
+    height:5px !important;
+    padding: 0px 0px 0px 0px !important;
+}
+
+table.qr-code td.white {
+    border-top-color: #fff;
+    background: #fff;
+    border-top-width:0 !important;
+    width:5px !important;
+    height:5px !important;
+    padding: 0px 0px 0px 0px !important;
+}
+
 .demo-avatar {
   width: 48px;
   height: 48px;
@@ -88,6 +121,10 @@ html, body {
     /*background-attachment: fixed;*/
     background-position: center;
 
+}
+
+.about-modal {
+    text-align: left !important;
 }
 
 .next-button {

@@ -1,4 +1,5 @@
 var express = require('express');
+var bodyParser = require('body-parser');
 var app = express();
 var fs = require("fs");
 var path = require('path');
@@ -8,6 +9,25 @@ var mongo_db = "local_db";
 
 
 var data_dir = appDir+"/data"
+
+app.post('/upload', function (req, res) {
+    console.log(req);
+    console.log(res);
+    var tempPath = req.files.file.path,
+        targetPath = path.resolve('data_dir');
+    if ( isImage(path.extname(req.files.file.name).toLowerCase()) ) {
+        fs.rename(tempPath, targetPath, function(err) {
+            if (err) throw err;
+            console.log("Upload completed!");
+        });
+    } else {
+        fs.unlink(tempPath, function () {
+            if (err) throw err;
+            console.error("Only .png files are allowed!");
+        });
+    }
+    // ...
+});
 
 app.get('/listUsers', function (req, res) {
     fs.readFile( __dirname + "/" + "users.json", 'utf8', function (err, data) {
@@ -105,4 +125,19 @@ function loadImagesToDB(images){
             collection.insert(image_object);
         }
     });
+}
+
+function isImage(file_type){
+    if(file_type === '.png')
+        return true;
+    else if(file_type === '.jpg')
+        return true;
+    else if(file_type === '.jpeg')
+        return true;
+    else if(file_type === '.tiff')
+        return true;
+    else if(file_type === '.bmp')
+        return true;
+    else
+        return false;
 }

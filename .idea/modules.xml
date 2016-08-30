@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../LabelD/.idea/mdl-template-dashboard.iml" filepath="$PROJECT_DIR$/../LabelD/.idea/mdl-template-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/LabelD.iml" filepath="$PROJECT_DIR$/.idea/LabelD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/mdl-template-dashboard.iml" filepath="$PROJECT_DIR$/.idea/mdl-template-dashboard.iml" />
     </modules>
   </component>
 </project>
