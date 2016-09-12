@@ -17,6 +17,7 @@ LabelD is simple enough to get up and running.
 - NodeJS
 - NPM
 - NPM module - express
+- NPM module - body-parser
 - MongoDB
 
 And... you're done!
