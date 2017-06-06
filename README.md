@@ -21,3 +21,11 @@ LabelD is simple enough to get up and running.
 - MongoDB
 
 And... you're done!
+
+If you dont have an image base to start from, this may be the easiest platform to begin building a training set. It comes default with the ability to pull keyword indexed images from Imgur, so try it out! 
+
+1. Put a keyword in the search box at the top right
+2. Hit enter
+3. Click "NEXT"
+
+Thats it!
