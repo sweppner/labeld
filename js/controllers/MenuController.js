@@ -17,9 +17,15 @@ app.controller('MenuController', ['$scope', function($scope) {
         final_download["data"] = total_annotations;
 
 
-        var something = window.open("data:text/json," + encodeURIComponent(JSON.stringify(final_download)),
+        /*var something = window.open("data:text/json," + encodeURIComponent(JSON.stringify(final_download)),
             "_blank");
-        something.focus();
+        something.focus();*/
+        
+        var iframe = "<iframe width='100%' height='100%' src='" + "data:text/json," + encodeURIComponent(JSON.stringify(final_download)) + "'></iframe>"
+        var x = window.open();
+        x.document.open();
+        x.document.write(iframe);
+        x.document.close();
 
     };
 
