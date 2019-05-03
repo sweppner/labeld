@@ -6,7 +6,7 @@ port = process.argv[2] || 8888;
 
 http.createServer(function(request, response) {
 
-    var uri = url.parse(request.url).pathname
+    var uri = decodeURI(url.parse(request.url).pathname)
         , filename = path.join(process.cwd(), uri);
 
     fs.exists(filename, function(exists) {
